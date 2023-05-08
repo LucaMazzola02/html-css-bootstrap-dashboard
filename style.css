@@ -70,7 +70,7 @@ main{
 
 .contents{
     width: calc(100% - 150px);
-    background-color: rgba(248,249,250,255);
+    background-color: #dcdcdc;
 }
 
 .side-bar{
@@ -154,5 +154,12 @@ main{
 #bg-gold{
     background-color: rgba(255,193,7,255);
     border: none;
+}
+.bg-titles{
+    background-color: #aeaeae;
+}
+
+.todo-container{
+    background-color: #fff;
 }
 
