@@ -70,7 +70,8 @@ main{
 
 .contents{
     width: calc(100% - 150px);
-    background-color: #dcdcdc;
+    background-color: rgba(248,249,250,255);
+    overflow-y: scroll;
 }
 
 .side-bar{
@@ -156,10 +157,18 @@ main{
     border: none;
 }
 .bg-titles{
-    background-color: #aeaeae;
+    background-color: rgba(247,247,247,255);
 }
 
-.todo-container{
+.br-black{border: 1px solid #333;}
+
+.bg-white{
     background-color: #fff;
 }
+
+.graphic-container p{
+    font-size: 10px;
+}
+
+#repo{text-decoration: underline;color: rgb(33,115,228);}
 
