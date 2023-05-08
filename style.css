@@ -1,5 +1,5 @@
 header{
-    height: 100px;
+    height: 62px;
     background-color: rgba(248,249,250,255);
 }
 
@@ -9,6 +9,12 @@ header nav section{
 
 ul{list-style-type: none;padding: 0;}
 a{text-decoration: none;color: #fff;}
+button{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
 
 .flex{
     display: flex;
@@ -23,6 +29,10 @@ nav{
     height: 100%;
 }
 
+.logo{
+    width: 10%;
+}
+
 .logo img{
     display: none;
     height: 50px;
@@ -35,6 +45,9 @@ nav{
    .logo img{
     display: block;
    }
+   .icon{
+    display: none;
+   }
 }
 
 .search{
@@ -45,12 +58,22 @@ nav{
     padding: 5px 7px;
 }
 
-
-.nav ul {
-    justify-content: center;
-    align-items: center;
-    text-align: right;
+.search input{
+    background-color: rgba(229,229,229,255);
+    border: none;
 }
+
+.nav{
+    margin-left: auto;
+}
+
+
+
+#bell{
+    color: rgba(255,143,0,255);
+}
+
+
 
 
 
@@ -71,7 +94,7 @@ nav{
 
 
 main{ 
-    height: calc(100vh - 100px);
+    height: calc(100vh - 62px);
 }
 
 .contents{
@@ -130,6 +153,5 @@ main{
 .col{
     background-color: #fff;
     border: 1px solid grey;
-
 }
 
